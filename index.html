@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HTML Forms</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Marioclub</title>
 </head>
 <body>
 
-    <h1>HTML Forms</h1>
+    <header>
+        <h1>Marioclub</h1>
+    </header>
+    <section class="banner">
+    <img src="img/banner.png" alt="marioclub welcome banner">
+    <div class="welcome">
+        <h2>Welcome to <br><span>Marioclub</span></h2>
+
+    </div>
+    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/News.html"> Latest news</a></li>
+            <li><a href="/Games.html"> New games</a></li>
+            <li><a href="/Contact.html"> Contact</a></li>
+
+        </ul>
+
+    </nav>
+    <main>
+        <article>
+            <h2>It's a me , Mario</h2>
+            <p> Lorem ipsum dolor sit amet consectetur elit. Quod placeat aechitecto , iste voluptatibus
+                temporibus earum fuga aliquid vel iure possimus eligendi , in obcaecati libero quibusdam.
+                Lorem ipsum dolor sit amet consectetur elit. Quod placeat aechitecto , iste voluptatibus
+                temporibus earum fuga aliquid vel iure possimus eligendi , in obcaecati libero quibusdam.
+                Lorem ipsum dolor sit amet consectetur elit. Quod placeat aechitecto , iste voluptatibus
+                temporibus earum fuga aliquid vel iure possimus eligendi , in obcaecati libero quibusdam.</p>
+
+            
+            
+        </article>
+        <ul class="images">
+            <li><img src="img/thumb-1.png" alt="Mario thumb 1"></li>
+            <li><img src="img/thumb-2.png" alt="Mario thumb 2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur elit. Quod placeat aechitecto , iste voluptatibus
+            temporibus earum fuga aliquid vel iure possimus eligendi , in obcaecati libero quibusdam.
+            Lorem ipsum dolor sit amet consectetur elit. Quod placeat aechitecto , iste voluptatibus
+            temporibus earum fuga aliquid vel iure possimus eligendi , in obcaecati libero quibusdam.
+            Lorem ipsum dolor sit amet consectetur elit.</p>
+         
+
+            <form>
+                <input type="email" name="email" placeholder="Type email & hit enter" required>
+            </form>
+        </section>
+
+        <footer>
+            <p class="copyright">Copyright 2019 Marioclub</p>
+        </footer>
+
+
+
     
-<forms>
-    <label for="username">enter username:</label>
-    <input type="text" id="username" name="username" placeholder="username" required>
-    <br><br>
-    <label for="email">enter email:</label>
-    <input type="email" id="email" name="email" placeholder="your email" required>
-    <br><br>
-    <label for="password">password:</label>
-    <input type="password" id="password" name="password" placeholder="choose a password" required>
+            
 
-    <p> select your age:</p>
+            
 
-    <input type="radio" name="age" value="0-25" id="option-1">
-    <label for="option-1">0-25</label>
+            
+        
     
-    <input type="radio" name="age" value="26-50" id="option-2">
-    <label for="option-2">26-50</label>
-    <input type="radio" name="age" value="50+" id="option-3">
-    <label for="option-3">50+</label>
 
-    <br><br>
-
-    <label for="question">Security question:</label>
-    <select name="question" id="question">
-    <option value="q1">What color are your favourite pair of socks?</option>
-    <option value="q2">If you could be a vegetable , What it be?</option>
-    <option value="q3">What is your best ever security question? </option>
-
-    </select>
-
-    <br><br>
-
-    <label for="answer"> Security question answer:</label>
-    <input type="text" id="answer" name="answer">
-
-    <br><br>
-
-
-    <label for="bio">Your bio:</label><br>
-    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About You..."></textarea>
-
-    <br><br>
-
-    <input type="Submit" value="Submit the form">
-
-
-
-</forms>
 
 </body>
 </html>
+    
+
+    
+
+
+
+
+
+
+
+
